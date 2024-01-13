@@ -1,0 +1,384 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(./images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color:grey;
+}
+
+header{
+   display: flex; 
+   justify-content: space-between;
+   padding: 20px 170px;
+}
+
+#right ul{
+  display:flex;
+  gap:20px;
+  list-style-type: none;
+}
+
+#left img{
+  width: 150%;
+  height: 140px;
+}
+
+ header #right ul li button{
+  width: 100%;
+  padding: 7px 10px;
+}
+
+#right button{
+  background-color: rgb(220, 3, 3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+}
+
+#right select{
+  background:none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px ;
+  padding: 8px;
+  padding-left: 30px;
+  position: relative;
+}
+
+
+.fa-language{
+  position: absolute;
+  top: 7.7%;
+  right: 25.5%;
+  color: aliceblue;
+}
+
+#second{
+  /* display: flex;
+  justify-content: center; */
+  width: 65%;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+#second h1{
+  padding: 25px;
+  font-size: 3rem;
+  margin-bottom: 0;
+
+}
+
+#second #pp1{
+font-size: 1.5rem;
+margin: 0;
+}
+
+#second #pp2{
+  font-size: 1.2rem;
+margin-top: 25px;
+}
+
+#second input{
+  background: transparent;
+  width: 40%;
+  height: 3.3rem;
+  border-radius: 5px;
+  color: white;
+  border:1px solid white;
+
+}
+
+#second button{
+  width:25%;
+  height: 3.3rem;
+  background-color: rgb(220, 3, 3);
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: white;
+  margin-left: 10px;
+}
+
+#but{
+  display: flex;
+  justify-content: space-between;
+}
+
+#tv{
+  width:100%;
+  margin: auto;
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color:black;
+  margin-top: 190px;
+ height: 500px;
+}
+
+#tvleft{
+  width: 50%;
+  padding-left: 150px;
+}
+
+#tvleft h1{
+  font-size: 3rem;
+}
+#tvleft p{
+  font-size: 1.5rem;
+}
+
+#tvright{
+  width: 50%;
+position: relative;
+padding-right: 150px;
+}
+
+#tvright img{
+  position: relative;
+  width: 100%;
+z-index: 2;
+}
+
+#tvright video{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 60%;
+  z-index: 1;
+}
+ 
+#forth{
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  height: 480px;
+}
+
+#forth #leftmob  {
+width: 50%;
+}
+
+
+#forth #leftmob #box3 img {
+  width: 70%;
+  margin-left:185px ;
+  margin-top: 40px;
+  position: relative;
+  }
+
+#forth #rightmob  {
+  width: 50%;
+padding-left: 30px;
+  }
+  
+#forth #rightmob h1{
+font-size: 3rem;
+padding-top: 40px;
+margin-bottom: 20px;
+}
+
+#forth #rightmob p{
+  font-size: 1.5rem;
+  }
+
+  #forth #rightmob p{
+    font-size: 1.5rem;
+    }
+
+    #forth #leftmob #box4 {
+      width: 40%;
+      height: 95px;
+      background-color:black;
+      border-radius:10px ;
+      border: 2px solid grey;
+      position: relative;
+      margin-left:277px ;
+      bottom: 120px;
+      position: relative;
+      } 
+
+      #forth #leftmob #box4 i{
+        position: absolute;
+        top: 40%;
+  right: 10%;
+  color: #4e4ed3;
+      }
+
+      #box4 img{
+        width: 60px;
+        height: 80px;
+      margin-left:15px ;
+      margin-top: 7px;
+      
+      }
+
+      #box4 h4{
+        display: inline;
+position: absolute;
+top: 0;
+left: 36%;
+      }
+
+#apple{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  margin-top: 10px;
+  height: 500px;
+}
+
+#appleleft{
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding-left: 150px;
+}
+
+#appleright{
+  width: 50%;
+  position: relative;
+  margin-top: 75px;
+margin-right: 60px;
+}
+
+#appleleft h1{
+  font-size: 3rem;
+}
+#appleleft p{
+  font-size: 1.5rem;
+}
+
+#appleright img{
+  width: 85%;
+  position: relative;
+  z-index: 2;
+  
+}
+
+#appleright video{
+  width: 52.8%;
+  position: absolute;
+  right: 31.5%;
+  top: 7.7%;
+
+}
+
+#third{
+display: flex;
+background-color: black;
+color: white;
+margin-top: 10px;
+height: 500px;
+
+}
+
+#tleft{
+  width: 50%;
+padding: 60px 0px 60px 150px ;
+}
+
+#tright{
+  width: 50%;
+
+}
+
+#tleft img{
+width:80%;
+}
+
+#tright h1{
+  font-size: 3rem;
+  padding-top: 10%;
+  margin-bottom: 10px;
+}
+
+#tright p {
+  font-size: 1.5rem;
+}
+
+#fo {
+  color:rgb(196, 193, 193);
+ }
+
+ #fo a{
+  color:rgb(196, 193, 193);
+ }
+
+ #box{
+  display: flex;
+  padding: 0px 120px;
+
+ }
+
+ #box li{
+  padding-right: 95px;
+  list-style-type:none;
+  padding-bottom: 15px;
+ }
+
+ #fo h4{
+margin-left:160px;
+margin-bottom:10px;
+margin-top: 10px;
+padding-top: 70px;
+ }
+
+footer{
+  background-color: black;
+
+}
+
+
+#fo h4 span{
+  text-decoration: underline;
+}
+
+#dropd{
+  list-style-type: none;
+  padding-left: 120px;
+  
+ }
+
+#dropdo{
+  background: transparent;
+  color: white;
+  width: 10%;
+  height: 35px;
+  border-radius: 5px ;
+  border: 1px solid grey;
+
+}
+
+ul{
+  margin-bottom: 0;
+}
+
+#fo h5{
+  padding-left: 160px;
+  padding-bottom: 70px;
+}
+
+@media(max-width:600px){
+  #tv{
+    width:90%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #tvleft{
+    width: 100%;
+  }
+
+  #tvright{
+    width: 100%;
+    position: relative;
+  }
+}
+
+
